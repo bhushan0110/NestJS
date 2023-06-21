@@ -10,7 +10,7 @@ import { ProfileModule } from './profile/profile.module';
 
 @Module({
   imports: [UserModule,
-      MongooseModule.forRoot('mongodb+srv://Bvb:bvbbvb@cluster0.bdw90vn.mongodb.net/?retryWrites=true&w=majority'),
+      MongooseModule.forRoot(''),
       AuthModule,
       ProfileModule
   ],
